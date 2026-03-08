@@ -1,0 +1,16 @@
+{
+  "name": "rustchain-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for RustChain - Query the chain from Claude Code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "rustchain", "claude", "blockchain", "rtc"],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
