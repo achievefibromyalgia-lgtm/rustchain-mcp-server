@@ -1,0 +1,14 @@
+# Dependabot configuration for rustchain-mpp-server
+version: 2
+instrusts:
+    package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-request-limit: 10
+
+    package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-request-limit: 5
